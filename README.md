@@ -1,7 +1,7 @@
 ## README: Spartan-6 FPGA DSP48A1 Slice
 
 ### Introduction
-This project provides an overview of the DSP48A1 slice within Spartan-6 FPGAs, designed for efficient digital signal processing (DSP) applications. The DSP48A1 slice offers versatile functionality, including multiplication, accumulation, pre-addition/subtraction, and advanced cascaded operations, making it an ideal choice for high-performance DSP designs.
+This project provides an overview of the DSP48A1 slice within Spartan-6 FPGAs designed using Verilog HDL, which is used for efficient digital signal processing (DSP) applications. The DSP48A1 slice offers versatile functionality, including multiplication, accumulation, pre-addition/subtraction, and advanced cascaded operations, making it an ideal choice for high-performance DSP designs.
 
 ---
 
@@ -29,16 +29,17 @@ This project provides an overview of the DSP48A1 slice within Spartan-6 FPGAs, d
 - Wireless Communication Systems
 
 ---
+### Design Primitive:
+![image](https://github.com/user-attachments/assets/746e2531-6d15-4026-bd06-642c706deb2e)
 
-### Integration and Usage
-For integration into your FPGA design:
-1. Refer to the Verilog/VHDL instantiation templates available in Xilinx ISE.
-2. Optimize your design by selecting appropriate attributes for pipelining, carry management, and cascade configurations.
-3. Leverage Xilinx tools like CORE Generator™ and System Generator™ for streamlined implementation.
+---
+
+### Design:
+![image](https://github.com/user-attachments/assets/e56d0fa6-8201-44ff-9d34-8ace7f6e952d)
 
 ---
 
 ### Documentation
-- Full documentation can be found in the Spartan-6 FPGA DSP48A1 Slice User Guide (UG389).
+- Full documentation can be found in the Spartan-6 FPGA DSP48A1 Slice User Guide (UG389) as I attached it along with the Verilog code files.
 - Additional references and templates are available in Xilinx's support resources.
 
